@@ -19,7 +19,7 @@ public class TopicController {
 	@RequestMapping("/topic")
 		public List<Topics> getAllTopic()
 			{
-				
+			int i=0;	
 		 return topicService.getAllTopic();	
 			
 			}
